@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "TDD Katas in TypeScript",
   "scripts": {
-    "test": "vitest"
+    "test:dev": "vitest",
+    "test:ci": "vitest --run"
   },
   "keywords": ["typescript", "tdd", "kata", "vitest"],
   "author": "",
